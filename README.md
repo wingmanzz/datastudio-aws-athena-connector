@@ -60,6 +60,7 @@ Key                      | Value
 `AWS_SECRET_ACCESS_KEY`  | {SECRET}
 `AWS Region`             | {AWS_REGION}
 `Glue Database Name`     | `default`
+`Work Group`             | {YOUR WORKGROUP}
 `Glue Table Name`        | `cloudfront_logs`
 `Query Output Location`  | `s3://aws-athena-query-results-{account_id}-us-west-2/data-studio`
 `Date Range Column Name` | `LogDate`
