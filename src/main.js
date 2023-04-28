@@ -45,6 +45,11 @@ function getConfig(request) {
     .setPlaceholder('us-east-1');
 
   config.newTextInput()
+    .setId('workGroup')
+    .setName('Work Group')
+    .setPlaceholder('google_analytics');
+
+  config.newTextInput()
     .setId('databaseName')
     .setName('Glue Database Name')
     .setPlaceholder('e.g. default');
